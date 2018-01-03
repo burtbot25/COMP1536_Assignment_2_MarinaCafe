@@ -1,0 +1,190 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <title>Marina Cafe | Jobs</title> 
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0, shrink-to-fit=no">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head> 
+<body>	
+	<header class="container-fluid hidden-xs">
+		<div class="row">
+			<div class="col-sm-12 banner">
+				<div class="text-center">
+					<a href="index.html"><img class="img-responsive topLeft" src="Images/Logo.png" alt="Logo"></a>
+					<img class="img-responsive" src="Images/Banner.png" alt="Banner">
+				</div>
+			</div>
+		</div>
+	</header>
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#NavButton">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="NavButton">
+		  <ul class="nav navbar-nav text-white">
+			<li>
+				<a href="index.html">home</a>
+			</li>
+			<li>
+				<a href="menu.html">menu</a>
+			</li>
+			<li>
+				<a href="performances.html">performances</a>
+			</li>
+			<li class="active">
+				<a href="jobs.html">jobs</a>
+			</li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>	
+	<section class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 banner">
+				<div class="text-center">
+					<h1>Marina Cafe</h1>
+					<a href="index.html"><img class="img-responsive visible-xs" src="Images/Banner.png" alt="Banner"></a>
+					<br/>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="container-fluid jumbotron">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1>Careers</h1>
+				<img class="img-responsive jumbo " src="Images/careers_banner.jpg" alt="Careers Banner">
+			</div>
+		</div>
+	</section>	
+	<section class="container-fluid content">
+		<div class="row">
+			<div class="col-sm-12 extraInfo">
+				<h4 class="text-center text-white">Join our team!</h4>
+			</div>
+		</div> 
+	</section>
+	<br />
+	<section class="container-fluid jobForm"> 		
+			<div class="row"> 
+				<section class="col-sm-4 text-center box jobAd">
+					<br  />
+						<h2>Apply for a job now!</h2>
+						<aside> 
+							<div> 
+								<div class = "hidden-sm, xs">
+									<br  /><br  />
+									<p>Are you a college student who would like a part-time job?</p>
+									<p>Apply at Marina Cafe -- we will work around your school schedule.</p>
+									<p>Complete the information form to the right to get the application process started.</p>
+									<p>Or, if you prefer, stop by Marina Cafe any time and ask about our employment opportunities</p>
+									<p>Marina Cafe is an equal opportunity employer</p>
+									<p>We celebrate the diversity of our associates!</p>
+								</div>
+							</div>
+						</aside>
+				</section>
+				<form class="col-sm-8" name="form" method="post" action="job_applications.php" >
+					<br  />
+					<h2>Apply Online:</h2>
+					<br  />
+					<div class="form-group" role="form">
+						<label for="name">Name:</label>
+						<input type="text" class="form-control" name="name" id="Name" placeholder="Enter your name">
+					</div>
+					<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="email" class="form-control" name="email" id="email" placeholder="Enter your e-mail">
+					</div>											
+					<div class="form-group">
+						<label for="Phone">Phone:</label>
+						<input type="tel" class="form-control" name="phone" id="phone" placeholder="Enter your phone number">
+					</div>
+					<br  />
+					<div>
+						<h3 class="roles">Please select the job roles you are interested in:</h3>
+						<div class="checkbox">
+							<label><input type="checkbox" name="bar_associate" id="bar_associate" value="bar_associate">Bar Associate</label>
+						</div>
+						<div class="checkbox">
+							<label><input type="checkbox" name="server" id="server" value="server">Server</label>
+						</div>
+						<div class="checkbox">
+							<label><input type="checkbox" name="cleaning_maintenance" id="cleaning_maintenance" value="cleaning_maintenance">Cleaning & Maintenance</label>
+						</div>
+						<div class="checkbox">
+							<label><input type="checkbox" name="manager" id="manager" value="Manager">Manager (Requires two or more years of experience)</label>
+						</div>
+					</div>
+					<br  />
+					<div>
+						<h3>
+							<label>Employment Type</label>
+						</h3>
+						<input type="radio" name="employment_type" id="part_time" value="part_time">&nbsp;<label>Part-time</label>
+						<br/>
+						<input type="radio" name="employment_type" id="full_time" value="full_time">&nbsp;<label>Full-time</label>
+					</div>
+					<div>
+						<h3>
+							<label>Gender</label>
+						</h3>
+						<input type="radio" name="gender" id="male" value="male">&nbsp;<label>Male</label>
+						<br/>
+						<input type="radio" name="gender" id="female" value="female">&nbsp;<label>Female</label>
+					</div>
+					<div>
+						<h3>
+							<label>Years of experience</label>
+						</h3>
+							<select class="years" size="1" name="years_of_experience" id="years_of_experience">
+								<option value="no_experience">No experience</option>
+								<option value="less_one_year">Less than 1 year</option>
+								<option value="more_one_year">More than 1 year</option>
+							</select>
+					</div>
+					<br />
+					<div>
+						<div class="form-group">
+							<h3>
+								<label for="comment">Comments:</label>
+							</h3>
+							<textarea class="form-control" rows="5" name="comments" id="comments"></textarea>
+						</div>
+					</div>
+					<div class="form-inline"> 
+						<button type="submit" class="btn btn-default">Submit</button> 
+						<button type="reset" class="btn btn-default">Reset</button> 
+					</div>
+					<br  />
+				</form>
+			</div>
+	</section>
+	<br />
+	<article class="container-fluid col-sm-2 offset-5 text-center box col-centered">
+		<h4>Contact Us:</h4>
+		<p>
+			<a href="tel:1-888-888-8888">1-888-888-8888</a>
+		</p>
+		<p>
+			<a href='mai&#108;&#116;o&#58;&#109;ar&#105;&#110;a%&#52;0&#109;a&#114;&#105;nac&#97;fe&#46;co%6D'>&#109;&#97;&#114;&#105;na&#64;mar&#105;nac&#97;f&#101;&#46;c&#111;m</a>
+		<p>667 Lawrence Ave</p>
+		<p>Kelowna, BC V1Y 6L8</p>
+	</article>
+	<footer class="container-fluid">
+		<div class="row text-center">
+			<div class="col-sm-12">
+				<p class="text-white">Copyright &copy; 2017 Marina Cafe<p>
+			</div>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body> 
+</html>
