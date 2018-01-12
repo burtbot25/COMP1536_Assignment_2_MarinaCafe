@@ -8,4 +8,4 @@ In this assignment, I learned:
   - The fundamentals of responsive web design for desktop and mobile users
   - Use the Bootstrap 3.0 framework to streamline responsive web design using a grid-based layout
   - Use Bootstrap's classes to customize and style elements
-  - How to hide, show, and manipulate certain HTML elements depending on screen size
+  - How to hide, show, and manipulate certain HTML elements depending on screen size 
